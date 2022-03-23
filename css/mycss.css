@@ -1,11 +1,7 @@
-/* 文章页背景 */
-.layout_post>#post {
-    /* 以下代表透明度为0.5 可以自行修改*/
-    background: rgba(255,255,255,.5);
-}
-
-/* 所有页面背景 */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表透明度为0.5 */
-    background: rgba(255,255,255,.5);
+/*文章页透明度*/
+#content-inner {
+    --light_bg_color: rgb(255,255,255 ,90%); /*侧边栏页面*/
+    --dark_bg_color: rgba(18, 18, 18, 0.8);
+    --light_page_color: rgb(255,255,255 ,90%);  /*文章页面*/
+    --dark_page_color: rgba(18, 18, 18, 0.8);
 }
