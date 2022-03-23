@@ -1,7 +1,0 @@
-/*文章页透明度*/
-#content-inner {
-    --light_bg_color: rgb(255,255,255 ,90%); /*侧边栏页面*/
-    --dark_bg_color: rgba(18, 18, 18, 0.8);
-    --light_page_color: rgb(255,255,255 ,90%);  /*文章页面*/
-    --dark_page_color: rgba(18, 18, 18, 0.8);
-}
